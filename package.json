@@ -1,0 +1,25 @@
+{
+  "name": "teste-automatizado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "bash node_modules/.bin/cucumber-js -p default"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.17",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.4",
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "cucumber-tsflow": "*",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/puppeteer": "^5.4.3",
+    "puppeteer": "^9.0.0"
+  }
+}
